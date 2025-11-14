@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AICL"
+version = "1.0.0"
+description = "Adaptive Inter-Module Communication Language for modular AI systems."
+authors = [
+    {name = "Vansh Bukkarwal", email = "localhousellm@gmail.com"}
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["AI", "communication", "protocol", "modules", "router", "symbolic-language"]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/LocalHouseLLM/AICL"
+Source = "https://github.com/LocalHouseLLM/AICL"
