@@ -1,7 +1,8 @@
 ⚠️ Important Notice — Current Version Limitations & Upcoming AICL-X Update
 
 This release of AICL (v1.0.0) is fully functional for development, but it contains one known limitation:
-❗ Known Issue: Import Resolution Bug (ModuleRegistry import error)
+
+❗Known Issue: Import Resolution Bug (ModuleRegistry import error)
 
 The current package layout (AICL/ inside site-packages) may cause:
 ImportError: cannot import name 'ModuleRegistry' from 'AICL.registry'
@@ -32,15 +33,21 @@ A formal grammar specification
 This update will transform AICL from a routing layer into a full AI-native communication protocol, powering ANVIRA and future modular LLM systems.
 
 🔮 What Users Should Expect
+
 ✔ v1.0.x
+
 Fixes, stability, and proper pip import behavior.
 
 ✔ v1.1.x
+
 Introduction of the AICL Symbol Language and encoder/decoder.
 
 ✔ v2.x
+
 Binary AICL, inter-process adapters, and deeper ANVIRA compatibility.
+
 🙏 Thank You
+
 AICL is early-stage but growing rapidly.
 
 # AICL — Adaptive Inter-Module Communication Language
@@ -231,3 +238,4 @@ Integrate AICL into your AI architecture
 
 
 Let’s build open, modular, adaptive AI together.
+
